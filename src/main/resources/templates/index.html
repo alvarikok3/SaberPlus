@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{plantilla :: head}"/>
+<body>
+    <header th:replace="~{plantilla :: header}"/>
+    
+    <div th:fragment="contenido" class="container mt-4 text-center">
+        <h2 th:text="${titulo}">Bienvenido a Tutor+</h2>
+        <p class="lead">Tu plataforma de tutorías escolares confiables.</p>
+    </div>
+
+    <footer th:replace="~{plantilla :: footer}"/>
+</body>
+</html>
