@@ -15,7 +15,7 @@
     <groupId>com.tutorplus</groupId>
     <artifactId>tutorplus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TutorPlus</name>
+    <name>TutorPlusFinal</name>
     <description>Proyecto TutorPlus con Spring Boot y Thymeleaf</description>
 
     <properties>
